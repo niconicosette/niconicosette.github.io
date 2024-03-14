@@ -2,39 +2,53 @@
 <html>
 
 <head>
-    <style>
-        body {
-            background: #000;
-        }
-
-        .container {
-            display: flex;
-            width: 100%;
-            height: 100vh;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .container img {
-            width: 150px;
-            height: 150px;
-            display: none;
-        }
-    </style>
+    <title>niconicosette</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Freelance web developer and UX designer based in KC." />
+    <meta http-equiv="content-script-type" content="text/javascript" />
+    <meta http-equiv="content-style-type" content="text/css" />
+    <meta http-equiv="content-language" content="en" />
+    <meta name="author" content="niconicosette" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/favi.png" />
 </head>
 
 <body>
-    <div class="container">
-        <img src="redirect.png" />
-        <span>redirecting...</span>
+    <div id="content">
+        <div id="landing">
+            <div id="art">
+                <img id="bot" src="assets/dev.png" />
+                <div id="cog1">
+                    <img class="cog rotate1" src="assets/cog.png" />
+                </div>
+                <div id="cog2">
+                    <span class="nico">nico</span>
+                    <span class="nicosette">nicosette</span>
+                    <img class="cog rotate2" src="assets/cog-black.png" />
+                </div>
+            </div>
+            <div id="text-section">
+                <p><strong>Hey, I'm Cosette.</strong> I build websites and apps for a living. If you're looking to grow
+                    your business online, here's how I can help.</p>
+                <ul>
+                    <li><strong>Planning - </strong>We'll talk about your goals, lay out your options, and figure out
+                        what the best approach is to get you there.</li>
+                    <li><strong>Design - </strong>I'll design your app in an accessible and user-friendly way that suits
+                        your needs.</li>
+                    <li><strong>Development - </strong>I'll write robust and maintainable code that works seamlessly
+                        across devices.</li>
+                    <li><strong>SEO - </strong>I'll handle the search engine optimisation to ensure your audience can
+                        find you.</li>
+                </ul>
+                <p>
+                    I offer <span class="email">email consultations for free</span>, so tell me about your project
+                    sometime. Reach me at <a href="mailto:niconicosette@gmail.com"
+                        class="email">niconicosette@gmail.com</a>
+                </p>
+            </div>
+        </div>
     </div>
-
 </body>
-<script>
-    function redir() {
-        window.location.href = "https://github.com/niconicosette";
-    }
-    redir();
-</script>
 
 </html>
