@@ -199,7 +199,7 @@ a.email {
   }
 }
 
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 600px) and (max-width: 500px) {
   #content {
     display: block;
     height: auto;
